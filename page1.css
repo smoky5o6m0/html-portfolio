@@ -10,7 +10,7 @@ body{
 .container{
 width: 100%;
 height: 100vh;
-background-image: url(robot.png);
+background-image: url(robot.jpg);
 background-position: center;
 background-size: cover;
 padding-top: 35px;
