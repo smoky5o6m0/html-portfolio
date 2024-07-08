@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Poppins" , sans-serif;
+}
+body{
+    color: #fff;
+}
+.container{
+width: 100%;
+height: 100vh;
+background-image: url(robot.jpg);
+background-position: center;
+background-size: cover;
+padding-top: 35px;
+padding-left: 8%;
+padding-right: 8%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.logo{
+    font-size: 40px;
+}
+.logo span{
+    color: #68c1cb;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 10px 15px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    transition: 0.5s;
+}
+nav ul li a:hover{
+    color: #68c1cb;
+}
+.login{
+    color: #fff;
+    font-size: 18px;
+    margin-right: 15px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.register{
+    color: #fff;
+    text-decoration: none;
+    margin-right: 18px;
+    font-size: 18px;
+    transition: 0.5s;
+}
+.login:hover{
+color: #6c6597;
+}
+.register:hover{
+    color: #6c6597;
+}
+.content {
+margin-top: 12%;
+max-width: 600px;
+}
+.content h3{
+    font-size: 55px;
+}
+.content p{
+    margin-top: 10px;
+    line-height: 25px;
+}
+.link{
+margin-top: 30px;
+}
+.link .hire{
+    color:#000;
+    background: #68c1cb;
+    text-decoration: none;
+    padding: 9px 25px;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+.link .hire:hover{
+color: #fff;
+background: transparent;
+border: 1px solid #68c1cb;
+}
+.abdul{
+    color:#6c6597 ;
+}
